@@ -2,7 +2,7 @@
 
 let settings = {
   blockedSites: ['youtube.com', 'twitter.com', 'instagram.com', 'facebook.com', 'reddit.com', 'netflix.com'],
-  schedule: { start: '09:00', end: '17:00', enabled: true },
+  schedule: { start: '09:00', end: '23:59', enabled: true },
   showQuotes: true,
   showStats: true,
   celebrationEffects: true,

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Beta Focus Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="options-container">
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">
+          <span class="logo-icon">🔒</span>
+          <h1>Focus Beta Focus Settings</h1>
+        </div>
+        <div class="version">v1.0.0</div>
+      </div>
+    </header>
+
+    <!-- Focus Schedule Section -->
+    <section class="settings-section">
+      <div class="section-header">
+        <h2>📅 Focus Schedule</h2>
+        <p>Set your daily focus hours when websites will be blocked</p>
+      </div>
+      
+      <div class="setting-group">
+        <label class="toggle-switch">
+          <input type="checkbox" id="schedule-enabled">
+          <span class="slider"></span>
+          <span class="label-text">Enable scheduled blocking</span>
+        </label>
+      </div>
+      
+      <div class="time-settings">
+        <div class="time-input-group">
+          <label for="start-time">Start Time</label>
+          <input type="time" id="start-time" value="09:00">
+        </div>
+        <div class="time-input-group">
+          <label for="end-time">End Time</label>
+          <input type="time" id="end-time" value="17:00">
+        </div>
+      </div>
+    </section>
+
+    <!-- Blocked Sites Section -->
+    <section class="settings-section">
+      <div class="section-header">
+        <h2>🚫 Blocked Websites</h2>
+        <p>Manage the list of websites to block during focus hours</p>
+      </div>
+      
+      <div class="blocked-sites-container">
+        <div class="add-site-form">
+          <input type="text" id="new-site-input" placeholder="Enter website (e.g., youtube.com)" />
+          <button id="add-site-btn" class="primary-btn">Add Site</button>
+        </div>
+        
+        <div class="sites-list" id="sites-list">
+          <!-- Sites will be populated by JavaScript -->
+        </div>
+        
+        <div class="preset-sites">
+          <h3>Quick Add Popular Distractions:</h3>
+          <div class="preset-buttons">
+            <button class="preset-btn" data-site="youtube.com">YouTube</button>
+            <button class="preset-btn" data-site="twitter.com">Twitter</button>
+            <button class="preset-btn" data-site="instagram.com">Instagram</button>
+            <button class="preset-btn" data-site="facebook.com">Facebook</button>
+            <button class="preset-btn" data-site="reddit.com">Reddit</button>
+            <button class="preset-btn" data-site="netflix.com">Netflix</button>
+            <button class="preset-btn" data-site="tiktok.com">TikTok</button>
+            <button class="preset-btn" data-site="twitch.tv">Twitch</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Motivation Settings -->
+    <section class="settings-section">
+      <div class="section-header">
+        <h2>💪 Motivation Settings</h2>
+        <p>Customize how the extension motivates you to stay focused</p>
+      </div>
+      
+      <div class="setting-group">
+        <label class="toggle-switch">
+          <input type="checkbox" id="show-quotes" checked>
+          <span class="slider"></span>
+          <span class="label-text">Show motivational quotes on blocked pages</span>
+        </label>
+      </div>
+      
+      <div class="setting-group">
+        <label class="toggle-switch">
+          <input type="checkbox" id="show-stats" checked>
+          <span class="slider"></span>
+          <span class="label-text">Display focus statistics</span>
+        </label>
+      </div>
+      
+      <div class="setting-group">
+        <label class="toggle-switch">
+          <input type="checkbox" id="celebration-effects" checked>
+          <span class="slider"></span>
+          <span class="label-text">Enable celebration effects for streaks</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Override Settings -->
+    <section class="settings-section">
+      <div class="section-header">
+        <h2>⚠️ Override Settings</h2>
+        <p>Configure emergency override behavior</p>
+      </div>
+      
+      <div class="setting-group">
+        <label for="override-countdown">Override countdown time (seconds)</label>
+        <input type="number" id="override-countdown" min="5" max="60" value="10" class="number-input">
+      </div>
+      
+      <div class="setting-group">
+        <label class="toggle-switch">
+          <input type="checkbox" id="break-streak-warning" checked>
+          <span class="slider"></span>
+          <span class="label-text">Warn about breaking streak when overriding</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="settings-section">
+      <div class="section-header">
+        <h2>📊 Your Focus Statistics</h2>
+        <p>Track your focus journey and celebrate your progress</p>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">🔥</div>
+          <div class="stat-content">
+            <span class="stat-number" id="current-streak">0</span>
+            <span class="stat-label">Current Streak</span>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">🏆</div>
+          <div class="stat-content">
+            <span class="stat-number" id="best-streak">0</span>
+            <span class="stat-label">Best Streak</span>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">⏰</div>
+          <div class="stat-content">
+            <span class="stat-number" id="total-time">0h</span>
+            <span class="stat-label">Time Saved</span>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">🚫</div>
+          <div class="stat-content">
+            <span class="stat-number" id="blocks-today">0</span>
+            <span class="stat-label">Blocks Today</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="actions-section">
+        <button id="reset-stats-btn" class="danger-btn">Reset All Statistics</button>
+        <button id="export-data-btn" class="secondary-btn">Export Data</button>
+      </div>
+    </section>
+
+    <!-- Save Button -->
+    <div class="save-section">
+      <button id="save-settings" class="save-btn">💾 Save Settings</button>
+      <div id="save-status" class="save-status"></div>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

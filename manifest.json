@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Beta Focus - Discipline Without Distractions",
+  "version": "1.0.0",
+  "description": "Block distracting websites during focus hours with psychology-based reinforcement and streak tracking.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "declarativeNetRequest",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Focus Beta Focus"
+  },
+  "options_page": "options.html",
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

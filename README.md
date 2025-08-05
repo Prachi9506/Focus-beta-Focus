@@ -34,16 +34,9 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 
 ## 📦 Installation
 
-### Method 1: Install from Chrome Web Store (Coming Soon)
-1. Visit the Chrome Web Store
-2. Search for "Focus Beta Focus"
-3. Click "Add to Chrome"
-4. Start focusing!
-
-### Method 2: Install from Source (Developer Mode)
+### Install from Source (Developer Mode)
 
 1. **Download the Extension**
-   - Download this repository as a ZIP file
    - Extract the files to a folder on your computer
 
 2. **Enable Developer Mode**

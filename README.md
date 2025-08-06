@@ -48,9 +48,7 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
    - Select the folder containing the extension files
    - The Focus Beta Focus icon should appear in your toolbar
 
-4. *Pin the Extension* (Optional but recommended)
-   - Click the puzzle piece icon in Chrome's toolbar
-   - Find "Focus Beta Focus" and click the pin icon
+
 
 ## 🚀 Quick Start Guide
 

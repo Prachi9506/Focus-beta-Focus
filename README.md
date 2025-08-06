@@ -37,7 +37,7 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 ### Install from Source (Developer Mode)
 
 1. *Download the Extension*
-   - Extract the files to a folder on your computer
+   - Extract the files to a folder on your computer by cloning the repo
 
 2. *Enable Developer Mode*
    - Open Chrome and go to chrome://extensions/

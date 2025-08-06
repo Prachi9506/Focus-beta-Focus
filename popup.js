@@ -3,7 +3,7 @@
 let state = {
   isActive: false,
   streakCount: 0,
-  schedule: { start: '09:00', end: '17:00', enabled: true },
+  schedule: { start: '09:00', end: '23:59', enabled: true },
   pomodoroTime: 25 * 60, // 25 minutes in seconds
   pomodoroInterval: null,
   isPomodoroActive: false

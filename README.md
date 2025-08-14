@@ -17,7 +17,7 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 
 ### ⏰ Built-in Pomodoro Timer
 - 25-minute focus sessions
-- Integrated with blocking system
+- Integrated with blocking system 
 - Audio notifications for session completion
 
 ### 📊 Focus Analytics

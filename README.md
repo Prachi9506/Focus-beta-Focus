@@ -2,7 +2,7 @@
 
 A powerful Chrome extension that helps you stay focused by blocking distracting websites during your designated focus hours. No more losing productivity to endless scrolling!
 
-## 🎯 Features
+## 🎯 Features 
 
 ### 🔒 Smart Website Blocking
 - Block any website during your focus hours

@@ -14,7 +14,7 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 - 10-second reflection countdown before override
 - Streak tracking with celebration effects
 - Visual progress indicators 
- 
+  
 ### ⏰ Built-in Pomodoro Timer
 - 25-minute focus sessions
 - Integrated with blocking system 

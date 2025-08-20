@@ -10,7 +10,7 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 - Instant activation with one click   
     
 ### 🧠 Psychology-Based Motivation
-- Motivational quotes on blocked pages
+- Motivational quotes on blocked pages 
 - 10-second reflection countdown before override
 - Streak tracking with celebration effects
 - Visual progress indicators 

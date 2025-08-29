@@ -1,4 +1,4 @@
-// Service Worker for Focus Beta Focus Chrome Extension
+ // Service Worker for Focus Beta Focus Chrome Extension
 
 let focusState = {
   isActive: false,

@@ -5,7 +5,7 @@ let focusState = {
   blockedSites: [],
   schedule: null,
   streakCount: 0, 
-  lastFocusDate: null
+  lastFocusDate: null 
 };
 
 // Initialize extension 

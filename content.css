@@ -8,7 +8,7 @@
   height: 100vh !important;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
   z-index: 999999 !important; 
-  display: flex !important;  
+  display: flex !important;   
   align-items: center !important;
   justify-content: center !important; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif !important;

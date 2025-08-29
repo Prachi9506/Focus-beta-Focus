@@ -8,7 +8,7 @@ let focusState = {
   lastFocusDate: null
 };
 
-// Initialize extension
+// Initialize extension 
 chrome.runtime.onInstalled.addListener(async () => {
   console.log('Focus Beta Focus installed');
   

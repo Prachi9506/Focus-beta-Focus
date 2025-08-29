@@ -3,7 +3,7 @@
 #focus-lock-overlay {
   position: fixed !important;
   top: 0 !important;
-  left: 0 !important;
+  left: 0 !important; 
   width: 100vw !important;
   height: 100vh !important;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;

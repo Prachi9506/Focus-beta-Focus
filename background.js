@@ -3,7 +3,7 @@
 let focusState = {
   isActive: false,
   blockedSites: [],
-  schedule: null,
+  schedule: null, 
   streakCount: 0, 
   lastFocusDate: null 
 };

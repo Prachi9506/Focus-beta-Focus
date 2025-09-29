@@ -1,4 +1,4 @@
-# Focus Beta Focus - Discipline Without Distractions
+# Focus Beta Focus - Discipline Without Distractions ✨
 
 A powerful Chrome extension that helps you stay focused by blocking distracting websites during your designated focus hours. No more losing productivity to endless scrolling!
   

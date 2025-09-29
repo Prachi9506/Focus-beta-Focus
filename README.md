@@ -13,7 +13,6 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 - Motivational quotes on blocked pages 
 - 10-second reflection countdown before override
 - Streak tracking with celebration effects
-- Visual progress indicators  
   
 ### ⏰ Built-in Pomodoro Timer
 - 25-minute focus sessions
@@ -56,7 +55,6 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 1. Click the Focus Beta Focus icon in your toolbar
 2. Click the gear icon to open settings
 3. Set your focus hours (default: 9:00 AM - 5:00 PM)
-4. Enable scheduled blocking
 
 ### 2. Add Websites to Block
 1. In settings, scroll to "Blocked Websites"
@@ -81,7 +79,6 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 - If you absolutely need to access a blocked site:
   1. Click "Emergency Override" on the blocked page
   2. Wait through the 10-second reflection period
-  3. Confirm (this will break your streak)
 
 ### Statistics Tracking
 - View your focus statistics in the settings page

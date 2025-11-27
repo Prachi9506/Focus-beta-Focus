@@ -231,13 +231,4 @@
   z-index: 1000001 !important;
 }
 
-@keyframes confettiFall {
-  0% {
-    top: -10px;
-    transform: rotateZ(0deg);
-  }
-  100% {
-    top: 100vh;
-    transform: rotateZ(360deg);
-  }
-}
+

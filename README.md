@@ -104,8 +104,6 @@ A powerful Chrome extension that helps you stay focused by blocking distracting 
 
 ### Sites Still Loading?
 1. Make sure you entered the correct domain (e.g., youtube.com not www.youtube.com)
-2. Clear your browser cache and cookies
-3. Check if you have other extensions that might interfere
 
 ### Timer Not Working?
 1. Ensure Chrome allows notifications from the extension
